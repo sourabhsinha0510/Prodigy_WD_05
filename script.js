@@ -39,6 +39,6 @@ function displayWeather(data) {
         <p><strong>Wind Speed:</strong> ${wind} m/s</p>
         <p><strong>Visibility:</strong> ${visibility} m</p>
         <p><strong>Sunrise:</strong>${sunriseTime}</p>
-        <p><strong>Sunrise:</strong>${sunsetTime}</p>
+        <p><strong>Sunset:</strong>${sunsetTime}</p>
     `;
 }
