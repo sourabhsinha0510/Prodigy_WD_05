@@ -1,0 +1,74 @@
+/* styles.css */
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #72EDF2 10%, #5151E5 100%);
+    color: #ffffff;
+}
+
+.weather-app {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+}
+
+.header h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+#cityInput {
+    padding: 15px;
+    width: 80%;
+    max-width: 300px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 25px;
+    font-size: 1em;
+    color: #333;
+}
+
+button {
+    padding: 15px 25px;
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff4e42;
+}
+
+.weather-result {
+    margin-top: 20px;
+    font-size: 1.2em;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.weather-result h2 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.additional-info {
+    margin-top: 20px;
+}
+
+.additional-info p {
+    margin: 5px 0;
+}
+
